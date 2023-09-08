@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "dev": "webpack",
-    "prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseidDEV/Frontend-webpack-assembly.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+  "bugs": {
+    "url": "https://github.com/AlekseidDEV/Frontend-webpack-assembly/issues"
   },
+  "homepage": "https://github.com/AlekseidDEV/Frontend-webpack-assembly#readme",
   "devDependencies": {
-    "glob": "^10.3.4",
-    "html-webpack-plugin": "^5.5.3"
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
