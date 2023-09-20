@@ -18,6 +18,7 @@ module.exports = {
     entry:{
         index: path.resolve(__dirname, 'src' , 'index.js'),
         // about: path.resolve(__dirname, 'src' , 'about.js'), тест
+        //
     },
     output:{
         filename: `./js/${filename('js')}`,
