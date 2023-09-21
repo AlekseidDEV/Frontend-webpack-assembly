@@ -1,30 +1,35 @@
-@import "vendors/mixin.scss", 
-        "vendors/normalize.scss",
-        "vendors/rules.scss";
+@import 'vendors/mixin.scss', 'vendors/normalize.scss', 'vendors/rules.scss',
+    'vendors/fonts.scss';
 
+@import 'components/button.scss';
 
-@import "components/button.scss";
-
-.test_selectors{
-        text-align: center;
-}
-body{
-        background: green;
+.test_selectors {
+    text-align: center;
 }
 
-.test_selectors{
-        text-align: center;
-}
-.test_selectors{
-        text-align: center;
-}
-.test_selectors{
-        text-align: center;
-}
-.test_selectors{
-        text-align: center;
-}
-.test_selectors{
-        text-align: center;
+body {
+    background: url(../img/2.png);
 }
 
+.text {
+    font-size: 70px;
+    background: greenyellow;
+    font-style: italic;
+    font-family: 'Test';
+}
+
+.test_selectors {
+    text-align: center;
+}
+.test_selectors {
+    text-align: center;
+}
+.test_selectors {
+    text-align: center;
+}
+.test_selectors {
+    text-align: center;
+}
+.test_selectors {
+    text-align: center;
+}

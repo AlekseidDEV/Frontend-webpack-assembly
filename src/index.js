@@ -1,9 +1,8 @@
-import menu from "./modules/menu";
-import test from "./modules/menu";
+import module from './modules/module';
 
-import './scss/index.scss'
-import '../src/index.html'
+// import img from './img/1.png'
 
+import './scss/index.scss';
 
-test()
-menu()
+test();
+menu();
